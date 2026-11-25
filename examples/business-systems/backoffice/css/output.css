@@ -563,10 +563,6 @@
   .rounded-xl {
     border-radius: var(--radius-xl);
   }
-  .border {
-    border-style: var(--tw-border-style);
-    border-width: 1px;
-  }
   .border-0 {
     border-style: var(--tw-border-style);
     border-width: 0px;
@@ -579,18 +575,11 @@
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 1px;
   }
-  .border-dashed {
-    --tw-border-style: dashed;
-    border-style: dashed;
-  }
   .border-stone-100 {
     border-color: var(--color-stone-100);
   }
   .border-stone-200 {
     border-color: var(--color-stone-200);
-  }
-  .border-stone-300 {
-    border-color: var(--color-stone-300);
   }
   .bg-amber-50 {
     background-color: var(--color-amber-50);
